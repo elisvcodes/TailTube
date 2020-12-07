@@ -8,12 +8,7 @@ var bodyParser = require("body-parser");
 
 var cookieParser = require("cookie-parser");
 
-var config = require("./config/key"); // const mongoose = require("mongoose");
-// mongoose
-//   .connect(config.mongoURI, { useNewUrlParser: true })
-//   .then(() => console.log("DB connected"))
-//   .catch(err => console.error(err));
-
+var config = require("./config/key");
 
 var mongoose = require("mongoose");
 
